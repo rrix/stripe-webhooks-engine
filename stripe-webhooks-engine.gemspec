@@ -7,11 +7,11 @@ require "stripe-webhooks-engine/version"
 Gem::Specification.new do |s|
   s.name        = "stripe-webhooks-engine"
   s.version     = StripeWebhooksEngine::VERSION
-  s.authors     = ["TODO: Your name"]
-  s.email       = ["TODO: Your email"]
-  s.homepage    = "TODO"
-  s.summary     = "TODO: Summary of StripeWebhooksEngine."
-  s.description = "TODO: Description of StripeWebhooksEngine."
+  s.authors     = ["Ryan Rix"]
+  s.email       = ["rrix@devfu.com"]
+  s.homepage    = "http://github.com/rrix/stripe-webhooks-engine"
+  s.summary     = "Log incoming webhooks from the Stripe API."
+  s.description = "Stripe provides web-based notifications for Stripe events. This gem will log those events for you."
 
   s.files = Dir["{app,config,db,lib}/**/*"] + ["MIT-LICENSE", "Rakefile", "README.rdoc"]
 
@@ -19,4 +19,6 @@ Gem::Specification.new do |s|
   # s.add_dependency "jquery-rails"
 
   s.add_development_dependency "sqlite3"
+  s.add_development_dependency "rspec-rails"
+  s.add_development_dependency "guard-rspec"
 end
