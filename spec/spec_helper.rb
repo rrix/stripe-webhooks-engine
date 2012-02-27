@@ -2,9 +2,12 @@
 ENV["RAILS_ENV"] ||= 'test'
 require File.expand_path("../dummy/config/environment.rb",  __FILE__)
 
+require 'rubygems'
 require 'rspec/rails'
 require 'rspec/autorun'
-require 'bundler/setup'
+require 'bundler'
+
+Bundler.require(:default, :test)
 
 ENGINE_RAILS_ROOT=File.join(File.dirname(__FILE__), '../')
 

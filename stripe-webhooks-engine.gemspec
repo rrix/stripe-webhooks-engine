@@ -1,3 +1,4 @@
+require 'bundler'
 $:.push File.expand_path("../lib", __FILE__)
 
 # Maintain your gem's version:
@@ -14,6 +15,8 @@ Gem::Specification.new do |s|
   s.description = "Stripe provides web-based notifications for Stripe events. This gem will log those events for you."
 
   s.files = Dir["{app,config,db,lib}/**/*"] + ["MIT-LICENSE", "Rakefile", "README.rdoc"]
+
+  s.add_bundler_dependencies
 
   s.add_dependency "rails", "~> 3.2.1"
   # s.add_dependency "jquery-rails"

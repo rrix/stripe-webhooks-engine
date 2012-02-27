@@ -8,3 +8,4 @@ if File.exist?(gemfile)
 end
 
 $:.unshift File.expand_path('../../../../lib', __FILE__)
+
