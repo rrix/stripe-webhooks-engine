@@ -1,6 +1,6 @@
 require 'spec_helper'
 
-describe StripeWebhooksEngine::StripeWebhooksController do
+describe StripeWebhooks::StripeWebhooksController do
 
   describe 'receiving webhooks from stripe' do
 

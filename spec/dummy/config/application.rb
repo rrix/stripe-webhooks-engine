@@ -9,7 +9,7 @@ require "sprockets/railtie"
 # require "rails/test_unit/railtie"
 
 Bundler.require
-require "stripe-webhooks-engine"
+require "stripe-webhooks"
 
 module Dummy
   class Application < Rails::Application

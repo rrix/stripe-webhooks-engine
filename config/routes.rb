@@ -1,4 +1,4 @@
-StripeWebhooksEngine::Engine.routes.draw do
+StripeWebhooks::Engine.routes.draw do
 
   root :to => 'stripe_webhooks#index'
 

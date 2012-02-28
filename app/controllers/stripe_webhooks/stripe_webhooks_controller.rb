@@ -1,4 +1,4 @@
-module StripeWebhooksEngine
+module StripeWebhooks
 
   class StripeWebhooksController < ApplicationController
 

@@ -1,6 +1,6 @@
-module StripeWebhooksEngine
+module StripeWebhooks
   class Engine < ::Rails::Engine
-    isolate_namespace StripeWebhooksEngine
+    isolate_namespace StripeWebhooks
     config.generators do |g|
       g.test_framework :rspec, :view_specs => false
     end

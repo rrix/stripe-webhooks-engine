@@ -2,12 +2,12 @@ require 'bundler'
 $:.push File.expand_path("../lib", __FILE__)
 
 # Maintain your gem's version:
-require "stripe-webhooks-engine/version"
+require "stripe-webhooks/version"
 
 # Describe your gem and declare its dependencies:
 Gem::Specification.new do |s|
-  s.name        = "stripe-webhooks-engine"
-  s.version     = StripeWebhooksEngine::VERSION
+  s.name        = "stripe-webhooks"
+  s.version     = StripeWebhooks::VERSION
   s.authors     = ["Ryan Rix"]
   s.email       = ["rrix@devfu.com"]
   s.homepage    = "http://github.com/rrix/stripe-webhooks-engine"

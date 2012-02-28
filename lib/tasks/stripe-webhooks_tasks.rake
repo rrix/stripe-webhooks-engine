@@ -1,4 +1,4 @@
 # desc "Explaining what the task does"
-# task :stripe-webhooks-engine do
+# task :stripe-webhooks do
 #   # Task goes here
 # end
