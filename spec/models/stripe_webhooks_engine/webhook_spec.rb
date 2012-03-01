@@ -1,6 +1,6 @@
 require 'spec_helper'
 
-describe Webhook do
+describe StripeWebhooks::Webhook do
 
   its(:object)              { should validate :presence   }
   its(:stripe_webhook_id)   { should validate :presence   }
