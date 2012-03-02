@@ -6,7 +6,7 @@ require "stripe-webhooks/version"
 
 # Describe your gem and declare its dependencies:
 Gem::Specification.new do |s|
-  s.name        = "stripe-webhooks"
+  s.name        = "stripe-webhooks-engine"
   s.version     = StripeWebhooks::VERSION
   s.authors     = ["Ryan Rix"]
   s.email       = ["rrix@devfu.com"]
